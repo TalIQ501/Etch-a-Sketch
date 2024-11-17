@@ -8,27 +8,33 @@ header {
     padding: 10px 20px;
 }
 
-#grid {
+#ui {
+    padding: 10px 20px;
+}
+
+.grid {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px 20px;
+    width: 960px;
 }
 
-#grid .grid-row {
+.grid .grid-row {
     display: flex;
     flex-direction: row;
 }
 
-#grid .grid-elem {
-    height: 40px;
-    width: 40px;
+.grid .grid-elem {
+    height: 20px;
+    width: 20px;
     border-style: solid;
-    border-color: #121212;
+    border-color: .121212;
     border-width: 1px;
     background-color: aquamarine;
 }
 
-#grid .grid-elem:hover {
-    opacity: 0.6;
+.grid .grid-elem:hover {
+    opacity: 0.3;
 }
+
