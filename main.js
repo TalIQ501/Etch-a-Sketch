@@ -1,4 +1,4 @@
-const outputElem = document.getElementById('output');
+const outputElem = document.getElementById('grid-container');
 
 const createGridElem = (row, column, rowElem) => {
     //Create Box in Grid
@@ -31,7 +31,6 @@ const createGrid = (output, gridSize) => {
         const row = createGridRow(i);
         for (let j = 1; j <= gridSize; j++) {
             createGridElem(i, j, row);
-
         }
     }
 }
